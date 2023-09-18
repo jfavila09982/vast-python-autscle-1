@@ -33,7 +33,7 @@ def show_machines(api_key):
         return f"An error occured {e}"
         
 print_instances = show_instances(api_key)
-#print_machines = show_machines(api_key)
+print_machines = show_machines(api_key)
 
 print(print_instances)
 #print(print_machines)
